@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabir Sayyad — Portfolio</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .profile-pic {
+      display: block;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px;
+      border: 3px solid #00bcd4;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 500;
+      color: #00e6ff;
+      margin-top: 0;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    h3 {
+      border-bottom: 2px solid #00bcd4;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: rgba(0, 188, 212, 0.1);
+      margin: 8px 0;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    a {
+      color: #00e6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="C:\Users\sabir sayyad\Pictures\yourphoto.jpg" alt="Sabir Sayyad" class="profile-pic">
+    <h1>Sabir Sayyad</h1>
+    <h2>Diploma Student in Computer Technology</h2>
+    <p style="text-align:center;">💡 Interested in: <b>AI & Web Development</b></p>
+
+    <section>
+      <h3>🧠 Skills</h3>
+      <ul>
+        <li>C Programming</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>HTML, CSS</li>
+      </ul>
+    </section>
+<section>
+  <h3>🚀 Project</h3>
+  <ul>
+    <li><b>AI Virtual Friend — "Sabir"</b><br>
+    A self-learning AI assistant that interacts naturally and detects emotions.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>🏆 Achievements</h3>
+  <ul>
+    <li>Devpost Hackathon Participant</li>
+    <li>College Project Competition (AI Category)</li>
+  </ul>
+</section>
+<footer>
+  <p>Connect with me:</p>
+<a href="https://devpost.com/sayyadsabir338/achievements" target="_blank">Devpost</a> |
+<a href="https://github.com/sabirsayyad1234" target="_blank">GitHub</a> |
+<a href="https://linkedin.com/in/sabir-sayyad-152305332" target="_blank">LinkedIn</a>
+
+<p>Made with ❤ by Sabir Sayyad</p>
+</footer>
+  </div>
+
+</body>
+</html>
